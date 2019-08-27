@@ -27,12 +27,12 @@ class SideBarTempGraph(octoprint.plugin.SettingsPlugin,
 
                 # version check: github repository
                 type="github_release",
-                user="jneilliii",
+                user="Aidenir",
                 repo="OctoPrint-SideBarTempGraph",
                 current=self._plugin_version,
 
                 # update method: pip
-                pip="https://github.com/jneilliii/OctoPrint-SideBarTempGraph/archive/{target_version}.zip"
+                pip="https://github.com/Aidenir/OctoPrint-SideBarTempGraph/archive/{target_version}.zip"
             )
         )
 
