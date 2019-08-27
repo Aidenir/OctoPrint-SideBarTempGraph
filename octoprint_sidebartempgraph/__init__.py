@@ -22,7 +22,7 @@ class SideBarTempGraph(octoprint.plugin.SettingsPlugin,
     def get_update_information(self):
         return dict(
             sidebartempgraph=dict(
-                displayName="Sidebar Temp Graph",
+                displayName="Sidebar Temp Graph 1",
                 displayVersion=self._plugin_version,
 
                 # version check: github repository
